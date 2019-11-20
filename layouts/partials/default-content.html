@@ -3,6 +3,13 @@
     <div class="meta">
         <span class="date moment">{{ .PublishDate.Format "2006-01-02" }}</span>
 
+        <span class="categories">
+             {{ .ReadingTime }}
+             {{ with .Site.Data.l10n.articles.readingtime }}{{.}}{{end}}
+        </span>
+ 
+
+
         {{ with .Params.categories }}
             <span class="categories">
                 {{ range . }}

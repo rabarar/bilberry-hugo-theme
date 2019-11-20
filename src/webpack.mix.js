@@ -11,7 +11,7 @@ mix.setPublicPath('../static/dist')
         'node_modules/skeleton-css/css/skeleton.css',
         'node_modules/font-awesome/css/font-awesome.min.css',
         'node_modules/flexslider/flexslider.css',
-        'node_modules/highlight.js/styles/zenburn.css',
+        'node_modules/highlight.js/styles/atom-one-light.css',
         'css/fontface.css',
         '../static/dist/theme.css'
     ], '../static/dist/theme.css')
